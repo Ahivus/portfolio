@@ -1,0 +1,426 @@
+@font-face{
+    font-family:"MuseoSansLight";
+    src:url(fonts/MuseoSans/MuseoSansLight/MuseoSansLight.eot)format('eot'),
+        url(fonts/MuseoSans/MuseoSansLight/MuseoSansLight.woff)format('woff'),
+        url(fonts/MuseoSans/MuseoSansLight/MuseoSansLight.ttf)format('ttf');   
+}
+.offer{
+    background-color: #daddd2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh;
+    min-height: 748px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.h_connainer{
+    width: 1140px;
+    height: 86px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.h_logo{
+    text-align: left;
+    width: 200px;
+    float: left;
+    padding-top: 20px;   
+}
+.h_logo img{
+    color: #9a9d90;
+    
+}
+.menu{
+    font-family: 'Asap', sans-serif;
+    text-align: center;
+    width: 540px;
+    float: left;
+    padding-top: 36px;
+    margin-left: 267px;   
+}
+.menu a{
+    text-decoration: none;
+    color: #9a9d90;
+    font-size: 17px;
+    padding-left: 17px;
+    transition: 0.5s ease-out;
+}
+.menu a:hover{
+    color: rgba(154, 157, 144, 0.5);
+}
+.fa {
+    color: #9a9d90;
+    font-size: 24px;
+    padding-top: 14px;
+    transition: 0.5s ease-out;
+}
+.fa i{
+    padding-left: 8px    
+}
+.fa:hover{
+    color: rgba(154, 157, 144, 0.5);
+}
+hr{
+    border: none;
+    background-color: #9a9d90; 
+    color: #9a9d90; /* Цвет линии для IE6-7 */
+    height: 2px;
+    margin-top: 31px;
+    padding-top: 0px;
+   }   
+                       /*Offer*/
+
+.offer_1{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 666px;
+    text-align: left;  
+}
+.no_inf{
+    height: 120px;  
+}
+.slide_bar{
+    width: 390px;
+    height: 539px;
+    float: left;
+    text-align: left; 
+}
+.of_content{
+    width: 750px;
+    height: 539px;
+    float: left;
+    text-align: left
+}
+.of_content h1{
+    font-family:"MuseoSansLight";
+    color: #034b81;
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.of_content span{
+    color: #9bb649;
+}
+.circle22 p{
+    font-family:"MuseoSansLight";
+    font-size: 18px;
+    color: #9a9d90;
+    font-weight: normal;
+}
+.col-1{
+    float: left;
+}
+.col-1 p{
+    margin-top: 0px;
+    margin-bottom: 40px
+}
+.col-2 img{
+    margin-left: 190px;   
+}
+.our_client{
+    margin-top: 0px;
+    width: 760px;
+    height: 70px;   
+}
+.our_client p{
+    font-family:"MuseoSansLight";
+    font-size: 18px;
+    color: #9a9d90;
+    font-weight: 500;
+}
+.our_client img{    
+}
+.our_client1{
+    float: left;
+    margin-top: 13px
+}
+.our_client23{
+    float:left;  
+    margin-top: 20px
+}
+.our_client456{
+    float:left;
+    padding-bottom:  
+}
+.button {
+    font-weight: 700;
+    width:360px; 
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    background-color: #f1703d;
+    display: inline-block;
+    padding-bottom: 21px;
+    padding-top: 21px;
+   text-align: center;
+    transition: 0.5s ease-out;
+}
+.button:hover {
+   background-color: rgba(241,112,61,0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+.of_content img{
+    padding-left: 12px
+}
+.of_content img:first-child{
+    padding-left: 0px;
+}
+.of_content img:last-child{
+  padding-left: 0px;  
+}
+.servvices{
+    height: 100vh;
+    min-height: 1936px; 
+} 
+                  
+                        /*Servvices*/ 
+.no_inf_serv{
+    height: 102px;   
+}
+.s_container{
+    width: 1140px;
+    height: 1736px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.data_bar{
+    height: 1736px;
+    width: 83px;
+    float: left;
+}
+.serv_noif{
+    height: 1736px;
+    width: 112px;
+    float: left;  
+}
+.ser_con{
+    height: 1736px;
+    width: 945px;
+    float: left;
+}
+form{
+    width: 940px;
+    height: 200px;
+    background-color: #034b81; 
+}
+input{
+    width: 221px;
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 8px;
+    padding-top: 0px;   
+}
+button{
+    width: 381px;
+    height: 64px;
+    background-color: #9bb649;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    display: inline-block; 
+    text-align: center;
+    transition: 0.5s ease-out;
+}
+button:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+button p{
+    padding-top: 15px;
+    padding-left: 4px;
+}
+form p{
+    float: left;
+    margin-top: 0px;
+}
+.ser_con1{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.ser_con1 h1{
+    font-family:"MuseoSansLight";
+    color: #034b81;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 30px
+}
+.ser_con1 span{
+    color: #9bb649; 
+}
+.ser_con2{
+    font-family:"MuseoSansLight";
+   color:#9a9d90;
+    font-size: 16px;
+    font-weight: 300; 
+} 
+.ser_con2 span{
+    color: #f1703d;
+}
+
+.form1 h1{
+    font-family:"MuseoSansLight";
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 500; 
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+.form1 span{
+  color: #9bb649;   
+}
+.ser_con3{
+    margin-top: 105px;   
+}
+.ser_con3 h1{
+    font-family:"MuseoSansLight";
+    color: #034b81;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0px;
+    padding-top: 3px;
+    margin-bottom: 0px;       
+}
+.ser_con3 span{
+    color: #9bb649; 
+}
+.ser_con3 p{
+    font-family:"MuseoSansLight";
+    color:#9a9d90;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-top: 15px;
+}
+.ser_con4{
+    margin-top: 80px;
+}
+.ser_con4 h1{
+    font-family:"MuseoSansLight";
+    color: #034b81;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 35px  
+}
+.ser_con4 span{
+    color: #9bb649; 
+}
+.ser_con4 p{
+    font-family:"MuseoSansLight";
+    color:#9a9d90;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding-top: 5px
+}
+ul{
+    margin-left: -2.5em;     
+}
+li{
+    background: url(/img2/%D1%81hecked_ne.jpg) no-repeat;
+    font-family:"MuseoSansLight";
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-left: 35px;
+}
+
+.ser_con5{
+    margin-top: 90px;
+}
+.ser_con5 h1{
+    font-family:"MuseoSansLight";
+    color: #034b81;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 33px;
+}
+.ser_con5 span{
+    color: #9bb649; 
+}
+.ser_con5 p{
+    font-family:"MuseoSansLight";
+    color:#9a9d90;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.ser_con6{
+    margin-top: 95px;
+}
+.ser_con6 h1{
+    font-family:"MuseoSansLight";
+    color: #034b81;
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 30px;  
+}
+.ser_con6 span{
+    color: #9bb649; 
+}
+.ser_con6 p{
+    font-family:"MuseoSansLight";
+    color:#9a9d90;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 9px;
+}
+.meeting a{
+    width: 381px;    
+}
+.meeting p{
+    font-family:"MuseoSansLight";
+    padding-left: 9px;
+}
+           /*Swiper*/
+
+.sl {
+      background-image: url(img2/iphoneX.png);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      height: 100%;
+      width: 326px;    
+}
+.swiper-container{ 
+    width: 281px;  
+}
+.swiper-wrapper{
+     margin-top: 78px; 
+     height: 459px;         
+}     
+.swiper-slide {
+    margin-right: 0px;
+    margin-left: 0px;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
